@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "telegram-get-vpn"
+version = "1.0.0"
+description = ""
+authors = ["Kirill Schaeffer <dnsmailforgpt@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.1.1"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+asyncpg = "^0.29.0"
+pytz = "^2023.3.post1"
+sqlalchemy = "^2.0.23"
+betterlogging = "^0.2.1"
+beautiful-date = "^2.3.0"
+outline-vpn-api = "^4.0.1"
+apscheduler = "^3.10.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
